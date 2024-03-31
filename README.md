@@ -1,16 +1,12 @@
-# task_1
+# Task 1 (Flutter)
 
-A new Flutter project.
+A simple Homepage
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+ 
+![Task1_1](https://github.com/NikitaDhomne/Task1/assets/102669357/3d7de14d-e7b0-44dc-b04c-cbd3cdf95400) 
 
-A few resources to get you started if this is your first Flutter project:
+![Task1_2](https://github.com/NikitaDhomne/Task1/assets/102669357/85a0a60f-d71e-4ce7-b029-519bb36b0778)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Task1_3](https://github.com/NikitaDhomne/Task1/assets/102669357/66614a11-54f2-4e21-81de-ce74636b201a)
