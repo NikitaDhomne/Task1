@@ -5,6 +5,8 @@ import 'package:task_1/apis/lesson_for_you_api.dart';
 import 'package:task_1/apis/program_for_you_api.dart';
 import 'package:task_1/models/lessons_model.dart';
 import 'package:task_1/models/program_model.dart';
+import 'package:task_1/screens/lesson_screen.dart';
+import 'package:task_1/screens/program_screen.dart';
 
 import 'package:task_1/widgets/all_program_card.dart';
 import 'package:task_1/widgets/buildItem.dart';
@@ -163,7 +165,10 @@ class _HomeState extends State<Home> {
                           ),
                           TitleWithViewMore(
                             title: 'Programs for you',
-                            onViewMore: () {},
+                            onViewMore: () {
+                              Navigator.of(context)
+                                  .pushNamed(ProgramScreen.routeName);
+                            },
                           ),
                           SizedBox(
                             height: 35,
@@ -204,7 +209,10 @@ class _HomeState extends State<Home> {
                           ),
                           TitleWithViewMore(
                             title: 'Lessons for you',
-                            onViewMore: () {},
+                            onViewMore: () {
+                              Navigator.of(context)
+                                  .pushNamed(LessonScreen.routeName);
+                            },
                           ),
                           SizedBox(
                             height: 35,
