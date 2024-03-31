@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 class TitleWithViewMore extends StatelessWidget {
   String title;
-  final routeName;
-  TitleWithViewMore({super.key, required this.title, required this.routeName});
+  final Function() onViewMore;
+  TitleWithViewMore({super.key, required this.title, required this.onViewMore});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class TitleWithViewMore extends StatelessWidget {
           ),
           InkWell(
               onTap: () {
-                Navigator.of(context).pushNamed(routeName);
+                onViewMore();
               },
               child: Row(
                 children: [
